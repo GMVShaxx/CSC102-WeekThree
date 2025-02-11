@@ -1,0 +1,42 @@
+<!--Created for CSC 102 - Gage Vaughan -->
+<!--This is my Assignment 3.1- Palindrome -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Here I link my JavaScript and CSS files so that they may communicate with each other-->
+    <script src = "Assignment 3.2 CSC102.js"></script>
+    <link rel = "stylesheet" href="Assignment 3.2 CSC102.css">
+<!--Title to differentiate my code from a starter one -->
+    <title>Strings</title>
+    
+</head>
+<body>
+<!--Intro users to the Webpage, and gives space with a break -->
+    <br>
+    <h1> The Palindrome Checker! </h1>
+
+<!-- Next Ill create a form for users to be able to input data into -->
+<form id = "palInput" onsubmit = "return false">
+<!-- this is where users will input -->
+    Enter a word to check for a palindrone: <input type="text" id = "initString"/>
+<!-- Once users input text into the text box, our JavaScript can take it and run our function -->
+    <input type="submit" onclick ="checkPal();"/>
+</form>
+
+<!-- This is where the output of our JavaScript will appear and tell the user if they have a Palindrone or not -->
+<p id = "results">
+    Results:
+</p>
+<!-- These Secondary results I placed as a safe measure to see that it could read back what I was inputing-->
+<p id = "results2">
+    Your Input:
+</p>
+<!--I decided to add an image to add some customization to my webpage -->
+<img id="memeImage" src="tacocatimage.webp">
+
+</body>
+</html>

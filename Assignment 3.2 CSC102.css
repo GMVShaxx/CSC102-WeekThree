@@ -1,0 +1,18 @@
+h1{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    text-align: center;
+    background-color: darkorange;
+    font-size: larger;
+}
+form{
+    font-style: italic;
+}
+p{
+    text-align: left;
+    color: darkslategray;
+    
+}
