@@ -1,0 +1,38 @@
+<!-- Gage Vaughan, Assignment 3.2 for CSC 102, User Input Validation-->
+ <!-- I messed up formatting these assignments so this and my prevously submitted assignment are misslabled-->
+  <!-- But this is the right code for Assignment I am attempting to submit -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Here is where my JavaScript and CSS files are linked so that they can communicate -->
+    <script src="Assignment 3.3 CSC102.js"></script>
+    <link rel = "stylesheet" href="Assignment 3.3 CSC102.css">
+
+    <!-- Here is my Tab Title for Browsers -->
+    <title>User Input Validation </title>
+
+</head>
+<body>
+<!-- This is an Introduction to the webpage -->
+    <h1> You've Found the Secret Website~! Whats your name and Zip?</h1>
+
+<!-- This is where I place the text boxes needed for First and Last names as well as Zip Codes-->
+    <form id = "credSubmit" onsubmit = "return false">
+        First Name: <input type = "text" id = "fName"/> <br>
+        Last Name: <input type = "text" id = "lName"/> <br>
+        Zip Code: <input type = "text" id = "zCode"/> <br>
+
+<!--This Submit "Button" takes the users inputs from the form and triggers the next step -->
+    <input type = "submit" onclick = "checkCreds();">
+<!-- Can't forget the closing form tag! -->
+    </form>
+    
+<!-- This is where users will get notified if there username, password, or badge id are incorrect in any fashion -->
+    <p id = "loginStatus"> Status of Login... </p>
+    <br>
+    
+</body>
+</html>
